@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane fx:id="mediaView" alignment="TOP_CENTER" prefHeight="328.0" prefWidth="880.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Sample2">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints maxWidth="727.0" minWidth="603.0" prefWidth="699.0" />
+      <ColumnConstraints maxWidth="201.0" minWidth="10.0" prefWidth="201.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Label alignment="CENTER" prefHeight="30.0" prefWidth="695.0" text="This Video Player has been created for university project purposes to be submitted for inspection to the NIIS Group Of Institution  " textAlignment="JUSTIFY" underline="true" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="67.0" prefWidth="700.0" text="VideoPlayer2.03" textAlignment="JUSTIFY" textFill="#64e43d" underline="true" GridPane.columnIndex="6">
+         <font>
+            <Font size="34.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Label alignment="CENTER" prefHeight="31.0" prefWidth="700.0" text="Feel free to use all the features of this app created in intellij and gluon scene builder in windows environment " GridPane.columnIndex="6" GridPane.rowIndex="19" />
+      <Label alignment="CENTER" prefHeight="35.0" prefWidth="700.0" text="This app is designed to play MP4 and MP3 media Files encoded in h.264 format and is capable of playing only that format" GridPane.columnIndex="6" GridPane.rowIndex="20" />
+      <Label alignment="BOTTOM_LEFT" prefHeight="64.0" prefWidth="173.0" text="ProjectCreatedAndSubmittedBy:" textFill="#c60c0c" GridPane.columnIndex="7" GridPane.rowIndex="21" />
+      <Label alignment="TOP_CENTER" prefHeight="72.0" prefWidth="164.0" text="Auro Archit Mishra" textFill="#2e14bf" GridPane.columnIndex="7" GridPane.rowIndex="23">
+         <font>
+            <Font name="Monotype Corsiva" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl2" alignment="TOP_LEFT" prefHeight="103.0" prefWidth="167.0" GridPane.columnIndex="6" GridPane.rowIndex="21" />
+   </children>
+</GridPane>
